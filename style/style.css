@@ -6,14 +6,25 @@
 }
 body{
 	font-family: 'DM Sans', sans-serif;
+	min-width: 1440px;
 
 }
-.header,.footer{
-	
+.header, .footer{
+	display: flex;
 	background: rgba(255, 113, 67, 0.27);
 	margin: o auto;
 	max-width: 100%;
 	padding: 38px 48px;
+	max-height: 145px;
+}
+.footer{
+	padding: 53px 48px;
+}
+.logo{
+	padding-right: 167px;
+}
+.nav{
+	padding-top: 18px;
 }
 .nav__li{
 	display: inline-block;
@@ -36,6 +47,9 @@ body{
 .nav__li:not(:first-of-type){
 	margin-left: 49px;
 
+}
+.container{
+	display: flex;
 }
 
 .about__left{
@@ -85,6 +99,7 @@ body{
 
 .btn_orange{
 	background-color: #FF7143;
+	margin-left: 160px;
 
 }
 .btn_orange:hover{
@@ -107,4 +122,96 @@ body{
 
 	
 
+}
+.man{
+	padding-right: 204px;
+	padding-top: 104px;
+}
+.navdown{
+	padding-left: 537px;
+}
+
+
+
+
+
+.twosection{
+	margin-top: 116px;
+	display: flex;
+	margin: 116px 185px;
+	width: 100%;
+}
+.img1{
+	margin: 84px 0 212px;
+}.form{
+	margin-left: 171px;
+}
+.text{
+	margin-top: 159px;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 57px;
+	letter-spacing: -1.56316px;
+	color: #19191B;
+}
+.email{
+	margin-right: 39px;
+	margin-top: 38px;
+	width: 302px;
+	height: 60px;
+	border: 1px solid #7087FF;
+	border-radius: 10px;
+	padding-left: 14px;
+}
+
+.sec3{
+	margin-top: 85px;
+	margin-left: 185px;
+	margin-right: 185px;
+}
+.get{
+	/*display: inline;*/
+	max-width: 504px;
+	margin: 0 auto 110px 0;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: -1.87579px;
+	color: #19191B;
+}
+.three_ul{
+	margin: auto auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.lii{
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid black;
+	width: 330px;
+	height: 441px;
+}
+.lii:not(:first-of-type){
+	margin-left: 40px;
+
+}
+.first_line{
+	font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: -0.562737px;
+
+color: #696871;
+}
+.second_line{
+	font-style: normal;
+	font-weight: 700;
+font-size: 60px;
+line-height: 56px;
+
+/* identical to box height, or 93% */
+letter-spacing: -1.03448px;
+
+color: #1D293F;
 }
