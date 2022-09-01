@@ -184,9 +184,11 @@ input{
 	margin: 22px 0 28px;
 	
 }
+
 .item__title span{
 	font-size: 28px;
 }
+
 .item__li{
 	list-style: none;
 	font-weight: 400;
@@ -196,21 +198,25 @@ input{
 	color: #696871;
 	
 }
+
 .item:hover .item__text, .item:hover .item__title, .item:hover .item__li{
 	transition: 500ms;
 	color: white;
 }
+
 .btn__item{
 	margin-top: 36px;
 	width: 285px;
 	background: white;
 	color: #5454D4;
 }
+
 .item:hover .btn__item{
 	background: #9F3919;
 	color: white;
 	transition: 500ms;
 } 
+
 .item:hover .btn__item:hover{
 	background: #5c1803;
 }
